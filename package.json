@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js" ,              
-    "build": "vite build",         
-    "preview": "vite preview"      
-  },
+  "dev": "nodemon index.js",
+   "build": "echo 'No build step needed'",
+  "start": "node index.js"
+},
   "author": "rbchus@gmail.com",
   "license": "ISC",
   "devDependencies": {
